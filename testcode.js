@@ -42,7 +42,7 @@ const test = () => {
 					return reject(err);
 				}
 				console.log(res);
-				resolve(res);
+				return resolve(res);
 			});
 		});
 	});
